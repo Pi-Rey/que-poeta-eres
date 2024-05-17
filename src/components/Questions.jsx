@@ -1,7 +1,7 @@
 import "../styles/Questions.scss";
 import PropTypes from "prop-types";
 
-function Questions({ question, answers, addPoints, renderNextQuestion }) {
+function Questions({ question, answers, addPoints, renderNextQuestion, classHidden}) {
   const handleChange = (ev) => {
     const points = takePoints(ev.target.id);
     addPoints(points)
@@ -41,7 +41,7 @@ function Questions({ question, answers, addPoints, renderNextQuestion }) {
 
 
   return (
-    <fieldset className="fieldset">
+    <fieldset className={`fieldset ${classHidden}`}>
       <form
         className="fieldset__form"
         action=""

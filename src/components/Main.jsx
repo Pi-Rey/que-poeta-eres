@@ -10,6 +10,7 @@ function Main() {
     const [answers, setAnswers] = useState(data[0].answerOptions)
     const [answerSum, setAnswerSum] = useState(0)
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [classHidden, setClassHidden] = useState("");
 
 //Funciones
     const addPoints = (points) => {
@@ -24,7 +25,7 @@ function Main() {
             setQuestion(data[nextIndex].question);
             setAnswers(data[nextIndex].answerOptions);
           } else {
-            // Aquí podrías manejar el final del cuestionario
+            setClassHidden("hidden")
             console.log("Cuestionario completado");
           }
     }
@@ -32,7 +33,7 @@ function Main() {
   return (
     <>
       {/*<Landing/>*/}
-      <Questions question={question} answers={answers} addPoints={addPoints} renderNextQuestion={renderNextQuestion}/>
+      <Questions classHidden={classHidden} question={question} answers={answers} addPoints={addPoints} renderNextQuestion={renderNextQuestion}/>
     </>
   );
 }

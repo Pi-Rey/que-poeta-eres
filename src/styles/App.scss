@@ -1,14 +1,15 @@
-@import './Variables';
+@import "./Variables";
 
-:root{
-    font-family: $main-font;
-    font-size: 62.5%;
-    margin: 0 20px;
+:root {
+  font-family: $main-font;
+  font-size: 62.5%;
+  margin: 0 20px;
 }
-html{
-    background-image: url("../images/background3.jpg");
-    background-position: top;
-    background-size: strech;
-  
-  }
-  
+html {
+  background-image: url("../images/background3.jpg");
+  background-position: top;
+  background-size: strech;
+}
+.hidden {
+    display: none;
+}
