@@ -1,0 +1,37 @@
+@import './variables';
+
+.footer {
+    height: fit-content;
+    width: 100vw;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    background-color: $casi_blanco;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    
+  
+    &__link {
+      text-decoration: none;
+      color: $turquesa_oscuro;
+      font-size: 1.2rem;
+      &:hover{
+          background-color: $turquesa_medio;
+         // text-decoration: underline $casi_blanco;
+         color: $casi_blanco;
+      }
+      &.arroba:hover{
+          padding-left: 20px;
+      }
+      &.about:hover{
+          padding-right: 20px;
+      }
+      @media screen and (width >= 768px) {
+          font-size: 1.8rem;
+        }
+    }
+  }
+   //      

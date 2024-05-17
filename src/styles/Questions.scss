@@ -1,0 +1,47 @@
+@import './variables';
+
+.fieldset {
+    margin: 30px 20px;
+    padding: 2rem;
+    border-radius: 5px;
+    border: solid 1px $turquesa_oscuro;
+    //min-width: 0;
+    background-color: $casi_blanco;
+    font-size: 1.5rem;
+    text-align: center;
+  
+    &__form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: baseline;
+      
+      
+  
+      &--question {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+        line-height: normal;
+      }
+      &--submit {
+        margin-top: 10px;
+        padding: 7px;
+        width: fit-content;
+        text-decoration: none;
+        color: $casi_blanco;
+        background-color: $turquesa_medio;
+        border-radius: 10px;
+        border: 2px solid $casi_blanco;
+        font-size: 1.5rem;
+        align-self: center;
+        &:hover {
+          background-color: $casi_blanco;
+          border: 2px solid $turquesa_oscuro;
+          color: $turquesa_oscuro;
+          font-weight: bold;
+  
+        }
+      }
+    }
+  }
+  

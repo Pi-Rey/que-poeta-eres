@@ -1,0 +1,57 @@
+[
+    {
+        "id": "1",
+        "question": "¿Cuál es tu estación del año favorita?",
+        "answerOptions":{
+            "ans1": "Primavera.",
+            "ans2": "Verano.",
+            "ans3": "Otoño.",
+            "ans4": "Invierno.",
+            "ans5": "Me gusta el calor por el mar y el frío por el hogar."
+        }
+    },
+    {
+        "id": "2",
+        "question": "¿Cuánto te has reído hoy?",
+        "answerOptions":{
+            "ans1": "Sin parar.",
+            "ans2": "Alguna carcajada loca.",
+            "ans3": "Solo risa nerviosa.",
+            "ans4": "Nada.",
+            "ans5": "Hace años que no salen de mi boca cascabeles."
+        }
+    },
+    {
+        "id": "3",
+        "question": "¿Cuál es tu color favorito?",
+        "answerOptions":{
+            "ans1": "Azul.",
+            "ans2": "Naranja.",
+            "ans3": "Marrón.",
+            "ans4": "Verde.",
+            "ans5": "Lila, rosa, lavanda... las flores son mi color favorito."
+        }
+    },
+    {
+        "id": "4",
+        "question": "¿Cuánto has llorado hoy?",
+        "answerOptions":{
+            "ans1": "Hace años que no lloro.",
+            "ans2": "Hoy nada de nada.",
+            "ans3": "Alguna lágrima de alegría.",
+            "ans4": "Es que he visto una peli tristísima y claro...",
+            "ans5": "Ríos salen de mis lagrimales."
+        }
+    },
+    {
+        "id": "5",
+        "question": "¿Qué parte del cuerpo humano serías?",
+        "answerOptions":{
+            "ans1": "Los ojos.",
+            "ans2": "La lengua.",
+            "ans3": "Las manos.",
+            "ans4": "Las piernas.",
+            "ans5": "El corazón, por supuesto."
+        }
+    }
+]

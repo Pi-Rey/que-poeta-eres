@@ -1,0 +1,57 @@
+@import './variables';
+
+.landing {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    @media screen and (width >= 768px) {
+     // margin-top: 25vh;
+      gap: 80px;
+    }
+    &__title {
+      color: $turquesa_oscuro;
+      
+      font-size: 2rem;
+      margin: 0 40px;
+      padding: 10px;
+      border-radius: 20px;
+      background-color: rgba($color: $casi_gris, $alpha: 0.9);
+      border: 2px dotted $casi_blanco;
+      @media screen and (width >= 768px) {
+          font-size: 5rem;
+        }
+    }
+    &__subtitle {
+      color: $turquesa_oscuro;
+      font-size: 1rem;
+      padding: 0 20px;
+      border-radius: 20px;
+      background-color: rgba($color: $blanco_azul, $alpha: 0.8);
+      @media screen and (width >= 768px) {
+          font-size: 3rem;
+        }
+    }
+    &__boton {
+      font-size: 2.4rem;
+      text-decoration: none;
+      color: $casi_blanco;
+      background-color: $turquesa_medio;
+      border-radius: 30px;
+      border: 5px solid $casi_blanco;
+      width: fit-content;
+      padding: 20px;
+      &:hover{
+          border: 5px solid $turquesa_oscuro;
+          background-color: $casi_blanco;
+          color: $turquesa_oscuro;
+      }
+      @media screen and (width >= 768px) {
+          font-size: 6rem;
+          margin-top: 15px;
+        }
+    }
+  }
+  
