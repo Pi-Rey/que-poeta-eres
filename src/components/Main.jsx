@@ -11,10 +11,11 @@ function Main() {
     const [answerSum, setAnswerSum] = useState(0)
     const [currentIndex, setCurrentIndex] = useState(0);
     const [classHidden, setClassHidden] = useState("");
+    const [selectedValue, setSelectedValue] = useState(null);
 
 //Funciones
-    const addPoints = (points) => {
-        setAnswerSum(answerSum + points);
+    const addPoints = () => {
+        setAnswerSum(answerSum + selectedValue);
     }
 
     const renderNextQuestion = () =>{
@@ -33,7 +34,7 @@ function Main() {
   return (
     <>
       {/*<Landing/>*/}
-      <Questions classHidden={classHidden} question={question} answers={answers} addPoints={addPoints} renderNextQuestion={renderNextQuestion}/>
+      <Questions classHidden={classHidden} question={question} answers={answers} addPoints={addPoints} renderNextQuestion={renderNextQuestion} selectedValue={selectedValue} setSelectedValue={setSelectedValue}/>
     </>
   );
 }

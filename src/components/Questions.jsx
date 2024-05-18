@@ -1,13 +1,23 @@
+import { useState } from "react";
 import "../styles/Questions.scss";
 import PropTypes from "prop-types";
 
-function Questions({ question, answers, addPoints, renderNextQuestion, classHidden}) {
+function Questions({
+  question,
+  answers,
+  addPoints,
+  renderNextQuestion,
+  classHidden,
+  selectedValue,
+  setSelectedValue,
+}) {
+  const [messageNext, setMessageNext] = useState("");
+
   const handleChange = (ev) => {
-    const points = takePoints(ev.target.id);
-    addPoints(points)
+    setSelectedValue(takePoints(ev.target.id));
+    //addPoints(points);
   };
 
-  
   //coger los puntos de la respuesta seleccionada
   /* if id === answer1 
   points = 2 */
@@ -33,12 +43,17 @@ function Questions({ question, answers, addPoints, renderNextQuestion, classHidd
     return points;
   }
 
-
   //pasar a la siguiente pregunta
   const handleClick = () => {
-    renderNextQuestion();
-  }
-
+    if (selectedValue !== null) {
+      addPoints(selectedValue);
+      setSelectedValue(null);
+      renderNextQuestion();
+      setMessageNext("")
+    } else {
+        setMessageNext("Por favor, elige una opción.")
+    }
+  };
 
   return (
     <fieldset className={`fieldset ${classHidden}`}>
@@ -103,6 +118,7 @@ function Questions({ question, answers, addPoints, renderNextQuestion, classHidd
           onClick={handleClick}
         />
       </form>
+      <p>{messageNext} </p>
     </fieldset>
   );
 }
@@ -111,6 +127,9 @@ Questions.propTypes = {
   question: PropTypes.string,
   answers: PropTypes.object,
   addPoints: PropTypes.func,
-  renderNextQuestion: PropTypes.func
+  renderNextQuestion: PropTypes.func,
+  classHidden: PropTypes.string,
+  selectedValue: PropTypes.number,
+  setSelectedValue: PropTypes.func,
 };
 export default Questions;
