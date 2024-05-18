@@ -69,19 +69,19 @@ function Questions({
 
         <div>
           <label htmlFor="answer1">
-            <input id="answer1" type="radio" value="answer1" name="answers" />
+            <input id="answer1" type="radio" value="answer1" name="answers" checked={selectedValue === 2}/>
             {answers.ans1}
           </label>
         </div>
         <div>
           <label htmlFor="answer2">
-            <input id="answer2" type="radio" value="answer2" name="answers" />
+            <input id="answer2" type="radio" value="answer2" name="answers" checked={selectedValue === 4}/>
             {answers.ans2}
           </label>
         </div>
         <div>
           <label htmlFor="answer3">
-            <input id="answer3" type="radio" value="answer3" name="answers" />
+            <input id="answer3" type="radio" value="answer3" name="answers" checked={selectedValue === 6}/>
             {answers.ans3}
           </label>
         </div>
@@ -92,6 +92,7 @@ function Questions({
               type="radio"
               value={answers.ans4}
               name="answers"
+              checked={selectedValue === 8}
             />
             {answers.ans4}
           </label>
@@ -104,6 +105,7 @@ function Questions({
               type="radio"
               value={answers.ans5}
               name="answers"
+              checked={selectedValue === 10}
             />
             {answers.ans5}
           </label>
