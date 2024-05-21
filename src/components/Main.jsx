@@ -3,14 +3,16 @@
 import { useState } from "react";
 import Questions from "./Questions";
 import data from "../services/questions.json"
+import PropTypes from "prop-types";
 
-function Main() {
+function Main({answerSum, setAnswerSum}) {
 //Variables de estado
     const [question, setQuestion] = useState(data[0].question);
     const [answers, setAnswers] = useState(data[0].answerOptions)
-    const [answerSum, setAnswerSum] = useState(0)
+    //const [answerSum, setAnswerSum] = useState(0)
     const [currentIndex, setCurrentIndex] = useState(0);
     const [classHidden, setClassHidden] = useState("");
+    const [classHiddenResult, setClassHiddenResult] = useState("hidden")
     const [selectedValue, setSelectedValue] = useState(null);
 
 //Funciones
@@ -26,17 +28,24 @@ function Main() {
             setQuestion(data[nextIndex].question);
             setAnswers(data[nextIndex].answerOptions);
           } else {
-            setClassHidden("hidden")
+            setClassHidden("hidden");
+            setClassHiddenResult("");
             console.log("Cuestionario completado");
+
           }
     }
 
   return (
     <>
-      {/*<Landing/>*/}
-      <Questions classHidden={classHidden} question={question} answers={answers} addPoints={addPoints} renderNextQuestion={renderNextQuestion} selectedValue={selectedValue} setSelectedValue={setSelectedValue}/>
+      
+      <Questions classHidden={classHidden} question={question} answers={answers} addPoints={addPoints} renderNextQuestion={renderNextQuestion} selectedValue={selectedValue} setSelectedValue={setSelectedValue} classHiddenResult={classHiddenResult}/>
     </>
   );
+}
+
+Main.propTypes = {
+    answerSum: PropTypes.number,
+    setAnswerSum: PropTypes.func
 }
 
 export default Main;

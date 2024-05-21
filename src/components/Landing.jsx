@@ -7,7 +7,7 @@ function Landing() {
       <h1 className="landing__title">Consulta tu poema de hoy</h1>
       <h2 className="landing__subtitle">Edición: mujeres poetas en español</h2>
 
-      <Button1 classScss="landing__boton" link="test.html" text="comenzar"/>
+      <Button1 classScss="landing__boton" link="/test" text="comenzar"/>
     </section>
   );
 }
