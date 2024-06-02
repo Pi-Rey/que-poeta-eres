@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-function Result({ answerSum }) {
+function Result({ answerSum, poemsList}) {
     console.log(typeof answerSum);
 
   //TODO: por qué me lo convierte a objeto cuando es un número???
@@ -32,12 +32,14 @@ function Result({ answerSum }) {
     <section>
       <p>{answerSum}</p>
       <p>{poetMessage}</p>
+      <p>{poemsList[0].poem1text}</p>
     </section>
   );
 }
 
 Result.propTypes = {
   answerSum: PropTypes.number,
+  poemsList: PropTypes.array
 };
 
 export default Result;
