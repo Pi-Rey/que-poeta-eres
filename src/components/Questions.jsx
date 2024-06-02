@@ -1,7 +1,8 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/Questions.scss";
 import PropTypes from "prop-types";
-import Button1 from "./Button1";
+
 
 function Questions({
   question,
@@ -71,19 +72,20 @@ function Questions({
           <h3 className="fieldset__form--question">{question}</h3>
 
           <div>
-            <label htmlFor="answer1">
+            <label className="fieldset__form--options" htmlFor="answer1">
               <input
                 id="answer1"
                 type="radio"
                 value="answer1"
                 name="answers"
+               
                 checked={selectedValue === 2}
               />
               {answers.ans1}
             </label>
           </div>
           <div>
-            <label htmlFor="answer2">
+            <label className="fieldset__form--options" htmlFor="answer2">
               <input
                 id="answer2"
                 type="radio"
@@ -95,7 +97,7 @@ function Questions({
             </label>
           </div>
           <div>
-            <label htmlFor="answer3">
+            <label className="fieldset__form--options" htmlFor="answer3">
               <input
                 id="answer3"
                 type="radio"
@@ -107,7 +109,7 @@ function Questions({
             </label>
           </div>
           <div>
-            <label htmlFor="answer4">
+            <label className="fieldset__form--options" htmlFor="answer4">
               <input
                 id="answer4"
                 type="radio"
@@ -120,7 +122,7 @@ function Questions({
           </div>
 
           <div>
-            <label htmlFor="answer5">
+            <label className="fieldset__form--options" htmlFor="answer5">
               <input
                 id="answer5"
                 type="radio"
@@ -143,7 +145,9 @@ function Questions({
         </form>
         <p>{messageNext} </p>
       </fieldset>
-      <Button1 classScss= {`result ${classHiddenResult}`}link="/result" text="Pincha aquí para tu resultado" />
+      <Link to="/result" className={`result ${classHiddenResult}`}>
+      Pincha aquí para tu resultado
+      </Link>
     </>
   );
 }

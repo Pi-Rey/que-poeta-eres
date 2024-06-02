@@ -22,6 +22,10 @@
         font-size: 1.8rem;
         margin-bottom: 10px;
         line-height: normal;
+
+      }
+      &--options{
+        cursor: pointer;
       }
       &--submit {
         margin-top: 10px;
@@ -34,6 +38,7 @@
         border: 2px solid $casi_blanco;
         font-size: 1.5rem;
         align-self: center;
+        cursor: pointer;
         @media screen and (width >= 768px) {
            align-self: start;
           }

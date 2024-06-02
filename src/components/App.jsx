@@ -18,7 +18,7 @@ function App() {
     const [answerSum, setAnswerSum] = useState(0)
   return (
     <>
-      <Header />
+      <Header setAnswerSum={setAnswerSum} />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/test" element={<Main answerSum={answerSum} setAnswerSum={setAnswerSum}/>} />
