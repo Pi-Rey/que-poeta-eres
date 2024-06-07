@@ -32,8 +32,8 @@ function Result({ answerSum, poemsList }) {
   const index = getRandomInt();
   console.log(index);
 
-const authorObject = poemsList[index];
-console.log(authorObject);
+  const authorObject = poemsList[index];
+  console.log(authorObject);
   console.log(typeof authorObject);
 
   //función para encontrar el poema con la keyword que yo quiero
@@ -47,10 +47,15 @@ console.log(authorObject);
   //hacer la maquetación
   return (
     <section>
-        <h4>Te ha tocado un poema de: </h4>
       {answerSum} {keyword}
+      <br /><br />
+      <h4>Te ha tocado un poema de: </h4>
       <h3>{authorObject.author}</h3>
-      <p>{poem ? poem.text : "No se encontró un poema con la palabra clave deseada."}</p>
+      <p>
+        {poem
+          ? poem.text
+          : "No se encontró un poema con la palabra clave deseada."}
+      </p>
     </section>
   );
 }
