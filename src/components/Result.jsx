@@ -1,48 +1,56 @@
 import PropTypes from "prop-types";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function Result({ answerSum, poemsList }) {
+  const [keyword, setKeyword] = useState("");
 
-    const [keyword, setKeyword] = useState('desamor');
+  //FIXME: revisar las keywords, que ahora son 'soledad', 'libertad', "mujer", "futuro", "amor"
 
-//TODO: poner la misma keyword a cada uno de los poemas (5 tipos de keyword en total)
-//TODO: meter los poemas como objetos en un array de objetos, no como propiedades de un objeto (mirar primera poeta)
-  const assignigPoet = () => {
+  const assigningKeyword = () => {
     if (answerSum < 11) {
-      return "entre 0 y 10";
+      return "amor";
     } else if (answerSum >= 11 && answerSum < 21) {
-      return "entre 11 y 20";
+      return "libertad";
     } else if (answerSum >= 21 && answerSum < 31) {
-      return "entre 21 y 30";
+      return "mujer";
     } else if (answerSum >= 31 && answerSum < 41) {
-      return "entre 31 y 40";
+      return "futuro";
     } else if (answerSum >= 41 && answerSum < 51) {
-      return "entre 41 y 50";
+      return "soledad";
     }
   };
-  const poetMessage = assignigPoet();
+  useEffect(() => {
+    setKeyword(assigningKeyword());
+  }, [answerSum]);
 
   console.log(poemsList);
 
-  const findPoem = (arr) => {
-    return arr.find((item)=>item.keyword=== keyword)
-  };
-  const html = poemsList.map((item, i) => {
-    return (
-      <article key={i} className="poem">
-        <h3> Nombre de la autora: {item.author}</h3>
-        <p> Poemas: {findPoem(item.poems).text}</p>
-      </article>
-    );
-  });
-  //TODO: continuar con este condicional
+  //función para asignar una poeta random:
+  function getRandomInt() {
+    return Math.floor(Math.random() * 4);
+  }
+  const index = getRandomInt();
+  console.log(index);
 
-  //FIXME: tengo que hacer algo como con las preguntas, dvs, tener una variable de estado para la autora, el título, y el poema, en vez de usar el useEffect para traerlo, porque eso no me permite tener flexibilidad a la hora de elegir qué pintar en la pantalla.
+const authorObject = poemsList[index];
+console.log(authorObject);
+  console.log(typeof authorObject);
+
+  //función para encontrar el poema con la keyword que yo quiero
+  const findPoem = (obj) => {
+    return obj.find((item) => item.keyword === keyword);
+  };
+  const poem = findPoem(authorObject.poems);
+  console.log(poem);
+
+  //TODO: preguntar por qué funciona con uno y no con el otro
+  //hacer la maquetación
   return (
     <section>
-      {answerSum}
-      {poetMessage}
-      {html}
+        <h4>Te ha tocado un poema de: </h4>
+      {answerSum} {keyword}
+      <h3>{authorObject.author}</h3>
+      <p>{poem ? poem.text : "No se encontró un poema con la palabra clave deseada."}</p>
     </section>
   );
 }

@@ -1,157 +1,157 @@
 [
   {
-    "id": "1",
+    "id": "0",
     "author": "Cristina Peri Rossi",
     "poems": [
       {
         "title": "",
         "text": "No quisiera que lloviera\nte lo juro\nque lloviera en esta ciudad\nsin ti\ny escuchar los ruidos del agua\nal bajar\ny pensar que allí donde estás viviendo\nsin mí\nllueve sobre la misma ciudad.\nQuizá tengas el cabello mojado\nel teléfono a mano\nque no usas\npara llamarme\npara decirme\nesta noche te amo\nme inundan los recuerdos de ti\ndiscúlpame,\nla literatura me mató\npero te le parecías tanto.",
-        "keyword": "desamor"
+        "keyword": "soledad"
+      },
+      {
+        "title": "NOMBRE DESCONOCIDO",
+        "text": "Una vez emprendimos   pájaro\nel vuelo\npor eso   continente\nnos son ajenos\ntodos los viajes\ntodas las tierras\ntránsito",
+        "keyword": "libertad"
+      },
+      {
+        "title": "Condición de mujer",
+        "text": "Soy la advenediza\nla que llegó al banquete\ncuando los invitados comían\nlos postres\n\nSe preguntaron\nquién osaba interrumpirlos\nde dónde era\ncómo me atrevía a emplear su lengua\n\nSi era hombre o mujer\nqué atributos poseía\nse preguntaron\npor mi estirpe\n\n<<Vengo de un pasado ignoto -dije-\nde un futuro lejano todavía\nPero en mis profecías hay verdad\nElocuencia en mis palabras\n¿Iba a ser la elocuencia\natributo de los Hombres?\nHablo la lengua de los conquistadores,\nes verdad,\naunque digo lo opuesto de lo que ellos dicen.>>\n\nSoy la advenediza\nla perturbadora\nla desordenadora de los sexos\nla transgresora\n \nHablo la lengua de los conquistadores\npero digo lo opuesto de lo que ellos dicen",
+        "keyword": "mujer"
+      },
+      {
+        "title": "Proyecto",
+        "text": "Podríamos hacer un niño\ny llevarlo al zoo los domingos.\nPodríamos esperarlo\na la salida del colegio.\nÉl iría descubriendo\nen la procesión de nubes\ntoda la prehistoria.\nPodríamos cumplir con él los años.\nPero no me gustaría que al llegar a la pubertad\nun fascista de mierda le pegara un tiro.",
+        "keyword": "futuro"
+      },
+      {
+        "title": "De aquí a la eternidad IV",
+        "text": "No he amado las almas, es verdad,\nsus pequeñas miserias\nsus rencores sus venganzas\nsus odios su soberbia\nen cambio he amado generosamente\nalgunos cuerpos\nmi amor los ha embellecido\nmás que el maquillaje\nmi amor los ha enaltecido\nsiempre es más fácil amar un seno flácido\nun ojo ligeramente estrábico\nque el mal carácter\nla mezquindad\no el narcisismo\nllamado otrosí ego.\nNo he amado las almas, es verdad,\nsus pequeñas miserias\nsus rencores sus venganzas\nsus odios su soberbia\nen cambio\nhe amado hasta el éxtasis\nalgunos cuerpos\nno necesariamente hermosos.",
+        "keyword": "amor"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "author": "Luisa Castro",
+    "poems": [
+      {
+        "title": "Nadie",
+        "text": "No me sorprende la casa vacía\nni las huellas de huída\nrecientes\npor la ventana.\nEntreabiertas las puertas, \ncon el viento apropiándose de mi lugar, \nno me sorprende\ny conozco esa justa desproporción del abandono;\nsólo entro,\ncomo siempre, \na echar de menos el oro, \nrecontaré las pérdidas,\n¿ves?\nNo sirvo para morir de pronto\ny me conozco: \nesta tarde cantaré cosas absurdas\npara escuchar a alguien. \nMi cuerpo, sutil súbitamente,\nbailará por toda la casa\nla danza de otra.",
+        "keyword": "soledad"
+      },
+      {
+        "title": "II",
+        "text": "Un corazón de harina \ndebieras ser.\nToda de harina por dentro\ny por fuera de hierro. \n\nQue la lluvia y el viento y todo lo que va hendiendo \ncada capa de piel\nlo sepulte un blando corazón de harina,\nlo guarde un cajón secreto. \nNada pase hacia dentro\nque no atraviese la dura armazón de hierro. \n \nQuede en la corteza lo que el corazón no ama, \nno pase hacia dentro lo que rompe el corazón. ",
+        "keyword": "libertad"
       },
       {
         "title": "",
-        "text": "Una vez emprendimos   pájaro\nel vuelo\npor eso   continente\nnos son ajenos\ntodos los viajes\ntodas las tierras\ntránsito",
-        "keyword":"cambio"
+        "text": "Y así te paseas por la ciudad\ncon tu bello niño de la mano, \ntransformada, \nmonstruosa,\nde tu mano la belleza dando saltos, \naprendiendo.",
+        "keyword": "mujer"
       },
-     {
-        "title": "Condición de mujer",
-        "text": "Soy la advenediza\nla que llegó al banquete\ncuando los invitados comían\nlos postres\n\nSe preguntaron\nquién osaba interrumpirlos\nde dónde era\ncómo me atrevía a emplear su lengua\n\nSi era hombre o mujer\nqué atributos poseía\nse preguntaron\npor mi estirpe\n\n<<Vengo de un pasado ignoto -dije-\nde un futuro lejano todavía\nPero en mis profecías hay verdad\nElocuencia en mis palabras\n¿Iba a ser la elocuencia\natributo de los Hombres?\nHablo la lengua de los conquistadores,\nes verdad,\naunque digo lo opuesto de lo que ellos dicen.>>\n\nSoy la advenediza\nla perturbadora\nla desordenadora de los sexos\nla transgresora\n \nHablo la lengua de los conquistadores\npero digo lo opuesto de lo que ellos dicen",
-        "keyword":"mujer"
+      {
+        "title": "",
+        "text": "Yo no quise ser mendigo\npero a donde van a parar\nlas preguntas que no se contestan,\nme pregunto yo.\n\nPreguntar es pedir asilo,\npreguntar es franquear la puerta\nde un país aterido.\n\nLos locos son esos que vagan\nbuscando respuestas.",
+        "keyword": "amor"
       },
-     {
-        "title": "Proyecto",
-        "text": "Podríamos hacer un niño\ny llevarlo al zoo los domingos.\nPodríamos esperarlo\na la salida del colegio.\nÉl iría descubriendo\nen la procesión de nubes\ntoda la prehistoria.\nPodríamos cumplir con él los años.\nPero no me gustaría que al llegar a la pubertad\nun fascista de mierda le pegara un tiro.",
-        "keyword":"politica"
-      },
-     {
-        "title": "De aquí a la eternidad IV",
-        "text": "No he amado las almas, es verdad,\nsus pequeñas miserias\nsus rencores sus venganzas\nsus odios su soberbia\nen cambio he amado generosamente\nalgunos cuerpos\nmi amor los ha embellecido\nmás que el maquillaje\nmi amor los ha enaltecido\nsiempre es más fácil amar un seno flácido\nun ojo ligeramente estrábico\nque el mal carácter\nla mezquindad\no el narcisismo\nllamado otrosí ego.\nNo he amado las almas, es verdad,\nsus pequeñas miserias\nsus rencores sus venganzas\nsus odios su soberbia\nen cambio\nhe amado hasta el éxtasis\nalgunos cuerpos\nno necesariamente hermosos.",
-        "keyword":"amor"
+      {
+        "title": "",
+        "text": "Nada me diste, avaro\nque yo no ganara a pulso. \n\n¿Hiciste tú verdes los prados?",
+        "keyword": "futuro"
       }
     ]
   },
   {
     "id": "2",
-    "author": "Luisa Castro",
-    "poems": {
-      "poem_1": {
-        "title": "Nadie",
-        "text": "No me sorprende la casa vacía\nni las huellas de huída\nrecientes\npor la ventana.\nEntreabiertas las puertas, \ncon el viento apropiándose de mi lugar, \nno me sorprende\ny conozco esa justa desproporción del abandono;\nsólo entro,\ncomo siempre, \na echar de menos el oro, \nrecontaré las pérdidas,\n¿ves?\nNo sirvo para morir de pronto\ny me conozco: \nesta tarde cantaré cosas absurdas\npara escuchar a alguien. \nMi cuerpo, sutil súbitamente,\nbailará por toda la casa\nla danza de otra.",
-        "keyword":""
+    "author": "Gloria Fuertes",
+    "poems": [
+      {
+        "title": "Cristales de ausencia",
+        "text": "Cristales de tu ausencia acribillan mi voz,\nque se esparce en la noche\npor el glacial desierto de mi alcoba. \n-Yo quisiera ser ángel y soy loba-.\nYo quisiera ser luminosamente tuya\ny soy oscuramente mía.\n\nMi accidente será un buen epitafio:\nCuando una calle bajo el sol cruzaba, \nde dolor -o de amor- es lo mismo,\nmurió desbaratada.",
+        "keyword": "soledad"
       },
-      "poem_2": {
-        "title": "II",
-        "text": "Un corazón de harina \ndebieras ser.\nToda de harina por dentro\ny por fuera de hierro. \n\nQue la lluvia y el viento y todo lo que va hendiendo \ncada capa de piel\nlo sepulte un blando corazón de harina,\nlo guarde un cajón secreto. \nNada pase hacia dentro\nque no atraviese la dura armazón de hierro. \n \nQuede en la corteza lo que el corazón no ama, \nno pase hacia dentro lo que rompe el corazón. ",
-        "keyword":""
+      {
+        "title": "Me desprecias",
+        "text": "Me desprecias porque quisieras ser como yo\ny en vez de imitarme\ndestrozas el espejo. ",
+        "keyword": "mujer"
       },
-      "poem_3": {
-        "title": "",
-        "text": "Y así te paseas por la ciudad\ncon tu bello niño de la mano, \ntransformada, \nmonstruosa,\nde tu mano la belleza dando saltos, \naprendiendo.",
-        "keyword":""
+      {
+        "title": "Me hice libre",
+        "text": "Me hice libre.\nVivo libre\nen esta inmensa celda\nde castigo que es la tierra.\nDecir la verdad\nme desencadena. ",
+        "keyword": "libertad"
       },
-      "poem_4": {
-        "title": "",
-        "text": "Yo no quise ser mendigo\npero a donde van a parar\nlas preguntas que no se contestan,\nme pregunto yo.\n\nPreguntar es pedir asilo,\npreguntar es franquear la puerta\nde un país aterido.\n\nLos locos son esos que vagan\nbuscando respuestas.",
-        "keyword":""
+      {
+        "title": "La vida es una hora",
+        "text": "La vida es una hora, \napenas te da tiempo a amarlo todo,\na verlo todo. \nLa vida sabe a musgo,\nsabe a poco la vida si no tienes\nmás manos en las manos que te dieron. \nAl final escogemos un lugar peligroso,\nun pretil, una vía,\nla punta de un puñal donde pasar la noche. ",
+        "keyword": "futuro"
       },
-      "poem_5": {
-        "title": "",
-        "text": "Nada me diste, avaro\nque yo no ganara a pulso. \n\n¿Hiciste tú verdes los prados?",
-        "keyword":"fuerza"
+      {
+        "title": "Merece la pena",
+        "text": "Cuando apareciste\n-aún era invierno-\nel trueno que se armó en mi silencio.\nSe revolucionaron mis manos\nasaltaron tu cuerpo. \nFui agresiva hasta la ternura\nconquisté el territorio de tu alma. \nNo hubo vencedores ni vecidos\nnos abrazamos para siempre\njuntando nuestras zonas. ",
+        "keyword": "amor"
       }
-    }
+    ]
   },
   {
     "id": "3",
-    "author": "Gloria Fuertes",
-    "poems": {
-      "poem_1": {
-        "title": "Cristales de ausencia",
-        "text": "Cristales de tu ausencia acribillan mi voz,\nque se esparce en la noche\npor el glacial desierto de mi alcoba. \n-Yo quisiera ser ángel y soy loba-.\nYo quisiera ser luminosamente tuya\ny soy oscuramente mía.\n\nMi accidente será un buen epitafio:\nCuando una calle bajo el sol cruzaba, \nde dolor -o de amor- es lo mismo,\nmurió desbaratada.",
-        "keyword":"soledad"
+    "author": "Alejandra Pizarnik",
+    "poems": [
+      {
+        "title": "La carencia",
+        "text": "Yo no sé de pájaros,\nno conozco la historia del fuego.\nPero creo que mi soledad debería tener alas.",
+        "keyword": "soledad"
       },
-      "poem_2": {
-        "title": "Me desprecias",
-        "text": "Me desprecias porque quisieras ser como yo\ny en vez de imitarme\ndestrozas el espejo. ",
-        "keyword":"fuerza"
+      {
+        "title": "El miedo",
+        "text": "En el eco de mis muertes\naún hay miedo.\n¿Sabes tú del miedo?\nSé del miedo cuando digo mi nombre.\nEs el miedo,\nel miedo con sombrero negro\nescondiendo ratas en mi sangre,\no el miedo con labio muertos\nbebiendo mis deseos.\nSí. En el eco de mis muertes\naún hay miedo.",
+        "keyword": "futuro"
       },
-      "poem_3": {
-        "title": "Me hice libre",
-        "text": "Me hice libre.\nVivo libre\nen esta inmensa celda\nde castigo que es la tierra.\nDecir la verdad\nme desencadena. ",
-        "keyword":"fuerza"
+      {
+        "title": "Árbol de Diana. 5",
+        "text": "por un minuto de vida breve\núnica de ojos abiertos\npor un minuto de ver\nen el cerebro flores pequeñas\ndanzando como palabras en la boca de un mudo",
+        "keyword": "amor"
       },
-      "poem_4": {
-        "title": "La vida es una hora",
-        "text": "La vida es una hora, \napenas te da tiempo a amarlo todo,\na verlo todo. \nLa vida sabe a musgo,\nsabe a poco la vida si no tienes\nmás manos en las manos que te dieron. \nAl final escogemos un lugar peligroso,\nun pretil, una vía,\nla punta de un puñal donde pasar la noche. ",
-        "keyword":""
+      {
+        "title": "Árbol de Diana. 23",
+        "text": "una mirada desde la alcantarilla\npuede ser una visión del mundo\nla rebelión consiste en mirar una rosa\nhasta pulverizarse los ojos",
+        "keyword": "libertad"
       },
-      "poem_5": {
-        "title": "Merece la pena",
-        "text": "Cuando apareciste\n-aún era invierno-\nel trueno que se armó en mi silencio.\nSe revolucionaron mis manos\nasaltaron tu cuerpo. \nFui agresiva hasta la ternura\nconquisté el territorio de tu alma. \nNo hubo vencedores ni vecidos\nnos abrazamos para siempre\njuntando nuestras zonas. ",
-        "keyword":"amor"
+      {
+        "title": "Exilio",
+        "text": "Esta manía de saberme ángel,\nsin edad,\nsin muerte en qué vivirme,\nsin piedad por mi nombre\nni por mis huesos que lloran vagando.\n\n¿Y quién no tiene un amor?\n¿Y quién no goza entre amapolas?\n¿Y quién no posee un fuego, una muerte,\nun miedo, algo horrible,\naunque fuere con plumas,\naunque fuere con sonrisas?\n\nSiniestro delirio amar a una sombra.\nLa sombra no muere.\nY mi amor\nsólo abraza a lo que fluye\ncomo lava del infierno:\nuna logia callada,\nfantasmas en dulce erección,\nsacerdotes de espuma,\ny sobre todo ángeles,\nángeles bellos como cuchillos\nque se elevan en la noche\ny devastan la esperanza.",
+        "keyword": "mujer"
       }
-    }
+    ]
   },
   {
     "id": "4",
-    "author": "Alejandra Pizarnik",
-    "poems": {
-      "poem_1": {
-        "title": "La carencia",
-        "text": "Yo no sé de pájaros,\nno conozco la historia del fuego.\nPero creo que mi soledad debería tener alas.",
-        "keyword":"soledad"
-      },
-      "poem_2": {
-        "title": "El miedo",
-        "text": "En el eco de mis muertes\naún hay miedo.\n¿Sabes tú del miedo?\nSé del miedo cuando digo mi nombre.\nEs el miedo,\nel miedo con sombrero negro\nescondiendo ratas en mi sangre,\no el miedo con labio muertos\nbebiendo mis deseos.\nSí. En el eco de mis muertes\naún hay miedo.",
-        "keyword":""
-      },
-      "poem_3": {
-        "title": "Árbol de Diana. 5",
-        "text": "por un minuto de vida breve\núnica de ojos abiertos\npor un minuto de ver\nen el cerebro flores pequeñas\ndanzando como palabras en la boca de un mudo",
-        "keyword":"esperanza"
-      },
-      "poem_4": {
-        "title": "Árbol de Diana. 23",
-        "text": "una mirada desde la alcantarilla\npuede ser una visión del mundo\nla rebelión consiste en mirar una rosa\nhasta pulverizarse los ojos",
-        "keyword":"esperanza"
-      },
-      "poem_5": {
-        "title": "Exilio",
-        "text": "Esta manía de saberme ángel,\nsin edad,\nsin muerte en qué vivirme,\nsin piedad por mi nombre\nni por mis huesos que lloran vagando.\n\n¿Y quién no tiene un amor?\n¿Y quién no goza entre amapolas?\n¿Y quién no posee un fuego, una muerte,\nun miedo, algo horrible,\naunque fuere con plumas,\naunque fuere con sonrisas?\n\nSiniestro delirio amar a una sombra.\nLa sombra no muere.\nY mi amor\nsólo abraza a lo que fluye\ncomo lava del infierno:\nuna logia callada,\nfantasmas en dulce erección,\nsacerdotes de espuma,\ny sobre todo ángeles,\nángeles bellos como cuchillos\nque se elevan en la noche\ny devastan la esperanza.",
-        "keyword":""
-      }
-    }
-  },
-  {
-    "id": "5",
     "author": "",
-    "poems": {
-      "poem_1": {
+    "poems": [
+      {
         "title": "",
         "text": "",
-        "keyword":""
+        "keyword": ""
       },
-      "poem_2": {
+      {
         "title": "",
         "text": "",
-        "keyword":""
+        "keyword": ""
       },
-      "poem_3": {
+      {
         "title": "",
         "text": "",
-        "keyword":""
+        "keyword": ""
       },
-      "poem_4": {
+      {
         "title": "",
         "text": "",
-        "keyword":""
+        "keyword": ""
       },
-      "poem_5": {
+      {
         "title": "",
         "text": "",
-        "keyword":""
+        "keyword": ""
       }
-    }
+    ]
   }
 ]

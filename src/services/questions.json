@@ -25,11 +25,11 @@
         "id": "3",
         "question": "¿Cuál es tu color favorito?",
         "answerOptions":{
-            "ans1": "Azul.",
-            "ans2": "Naranja.",
-            "ans3": "Marrón.",
-            "ans4": "Verde.",
-            "ans5": "Lila, rosa, lavanda... las flores son mi color favorito."
+            "ans1": "Naranja.",
+            "ans2": "Azul.",
+            "ans3": "Verde.",
+            "ans4": "Marrón.",
+            "ans5": "Mi respuesta es el color de la ternura."
         }
     },
     {
@@ -48,10 +48,10 @@
         "question": "¿Qué parte del cuerpo humano serías?",
         "answerOptions":{
             "ans1": "Los ojos.",
-            "ans2": "La lengua.",
-            "ans3": "Las manos.",
+            "ans2": "El corazón.",
+            "ans3": "La lengua.",
             "ans4": "Las piernas.",
-            "ans5": "El corazón, por supuesto."
+            "ans5": "Las manos."
         }
     }
 ]
