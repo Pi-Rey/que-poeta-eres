@@ -1,17 +1,12 @@
 import PropTypes from "prop-types";
+import { useState } from "react";
 
-function Result({ answerSum, poemsList}) {
-    console.log(typeof answerSum);
+function Result({ answerSum, poemsList }) {
 
-  //TODO: por qué me lo convierte a objeto cuando es un número???
+    const [keyword, setKeyword] = useState('desamor');
 
-  //   const answerInt = parseInt(answerSum);
-  // const sumaSUM = answerSum + 100;
-  // const sumaINT = answerInt + 100;
-
-  //   console.log(answerInt);
-  //   console.log(typeof answerInt);
-
+//TODO: poner la misma keyword a cada uno de los poemas (5 tipos de keyword en total)
+//TODO: meter los poemas como objetos en un array de objetos, no como propiedades de un objeto (mirar primera poeta)
   const assignigPoet = () => {
     if (answerSum < 11) {
       return "entre 0 y 10";
@@ -25,21 +20,36 @@ function Result({ answerSum, poemsList}) {
       return "entre 41 y 50";
     }
   };
-  const poetMessage = assignigPoet()
+  const poetMessage = assignigPoet();
 
+  console.log(poemsList);
+
+  const findPoem = (arr) => {
+    return arr.find((item)=>item.keyword=== keyword)
+  };
+  const html = poemsList.map((item, i) => {
+    return (
+      <article key={i} className="poem">
+        <h3> Nombre de la autora: {item.author}</h3>
+        <p> Poemas: {findPoem(item.poems).text}</p>
+      </article>
+    );
+  });
   //TODO: continuar con este condicional
+
+  //FIXME: tengo que hacer algo como con las preguntas, dvs, tener una variable de estado para la autora, el título, y el poema, en vez de usar el useEffect para traerlo, porque eso no me permite tener flexibilidad a la hora de elegir qué pintar en la pantalla.
   return (
     <section>
-      <p>{answerSum}</p>
-      <p>{poetMessage}</p>
-      <p>{poemsList[0].poem1text}</p>
+      {answerSum}
+      {poetMessage}
+      {html}
     </section>
   );
 }
 
 Result.propTypes = {
   answerSum: PropTypes.number,
-  poemsList: PropTypes.array
+  poemsList: PropTypes.array,
 };
 
 export default Result;

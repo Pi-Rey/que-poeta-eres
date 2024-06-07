@@ -2,33 +2,33 @@
   {
     "id": "1",
     "author": "Cristina Peri Rossi",
-    "poems": {
-      "poem_1": {
+    "poems": [
+      {
         "title": "",
-        "text": "No quisiera que lloviera\nte lo<br/> juro\nque lloviera en esta ciudad\nsin ti\ny escuchar los ruidos del agua\nal bajar\ny pensar que allí donde estás viviendo\nsin mí\nllueve sobre la misma ciudad.\nQuizá tengas el cabello mojado\nel teléfono a mano\nque no usas\npara llamarme\npara decirme\nesta noche te amo\nme inundan los recuerdos de ti\ndiscúlpame,\nla literatura me mató\npero te le parecías tanto.",
+        "text": "No quisiera que lloviera\nte lo juro\nque lloviera en esta ciudad\nsin ti\ny escuchar los ruidos del agua\nal bajar\ny pensar que allí donde estás viviendo\nsin mí\nllueve sobre la misma ciudad.\nQuizá tengas el cabello mojado\nel teléfono a mano\nque no usas\npara llamarme\npara decirme\nesta noche te amo\nme inundan los recuerdos de ti\ndiscúlpame,\nla literatura me mató\npero te le parecías tanto.",
         "keyword": "desamor"
       },
-      "poem_2": {
+      {
         "title": "",
         "text": "Una vez emprendimos   pájaro\nel vuelo\npor eso   continente\nnos son ajenos\ntodos los viajes\ntodas las tierras\ntránsito",
         "keyword":"cambio"
       },
-      "poem_3": {
+     {
         "title": "Condición de mujer",
         "text": "Soy la advenediza\nla que llegó al banquete\ncuando los invitados comían\nlos postres\n\nSe preguntaron\nquién osaba interrumpirlos\nde dónde era\ncómo me atrevía a emplear su lengua\n\nSi era hombre o mujer\nqué atributos poseía\nse preguntaron\npor mi estirpe\n\n<<Vengo de un pasado ignoto -dije-\nde un futuro lejano todavía\nPero en mis profecías hay verdad\nElocuencia en mis palabras\n¿Iba a ser la elocuencia\natributo de los Hombres?\nHablo la lengua de los conquistadores,\nes verdad,\naunque digo lo opuesto de lo que ellos dicen.>>\n\nSoy la advenediza\nla perturbadora\nla desordenadora de los sexos\nla transgresora\n \nHablo la lengua de los conquistadores\npero digo lo opuesto de lo que ellos dicen",
         "keyword":"mujer"
       },
-      "poem_4": {
+     {
         "title": "Proyecto",
         "text": "Podríamos hacer un niño\ny llevarlo al zoo los domingos.\nPodríamos esperarlo\na la salida del colegio.\nÉl iría descubriendo\nen la procesión de nubes\ntoda la prehistoria.\nPodríamos cumplir con él los años.\nPero no me gustaría que al llegar a la pubertad\nun fascista de mierda le pegara un tiro.",
         "keyword":"politica"
       },
-      "poem_5": {
+     {
         "title": "De aquí a la eternidad IV",
         "text": "No he amado las almas, es verdad,\nsus pequeñas miserias\nsus rencores sus venganzas\nsus odios su soberbia\nen cambio he amado generosamente\nalgunos cuerpos\nmi amor los ha embellecido\nmás que el maquillaje\nmi amor los ha enaltecido\nsiempre es más fácil amar un seno flácido\nun ojo ligeramente estrábico\nque el mal carácter\nla mezquindad\no el narcisismo\nllamado otrosí ego.\nNo he amado las almas, es verdad,\nsus pequeñas miserias\nsus rencores sus venganzas\nsus odios su soberbia\nen cambio\nhe amado hasta el éxtasis\nalgunos cuerpos\nno necesariamente hermosos.",
         "keyword":"amor"
       }
-    }
+    ]
   },
   {
     "id": "2",

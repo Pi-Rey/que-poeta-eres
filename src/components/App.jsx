@@ -2,13 +2,14 @@
 import "../styles/Reset.scss";
 
 import "../styles/App.scss";
-import getPoems from "../services/api";
+//import getPoems from "../services/api";
+import poemsData from "../services/poems.json";
 import Main from "./Main";
 import Header from "./Header";
 import Footer from "./Footer";
 import Landing from "./Landing";
 import { Routes, Route } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import About from "./About";
 import Zozobra from "./Zozobra";
 import Result from "./Result";
@@ -16,14 +17,14 @@ import Result from "./Result";
 
 function App() {
     const [answerSum, setAnswerSum] = useState(0)
-    const [poemsList, setPoemsList] = useState([]);
+    const [poemsList, setPoemsList] = useState(poemsData);
 
 
-    useEffect(() => {
-        const poems = getPoems();
-        setPoemsList(poems);
-        console.log(poems);
-      }, []);
+    // useEffect(() => {
+    //     const poems = getPoems();
+    //     setPoemsList(poems);
+    //     console.log(poems);
+    //   }, []);
   return (
     <>
       <Header setAnswerSum={setAnswerSum} />
