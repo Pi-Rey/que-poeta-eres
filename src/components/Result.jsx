@@ -27,7 +27,7 @@ function Result({ answerSum, poemsList }) {
 
   //función para asignar una poeta random:
   function getRandomInt() {
-    return Math.floor(Math.random() * 4);
+    return Math.floor(Math.random() * 5);
   }
   const index = getRandomInt();
   console.log(index);
@@ -51,6 +51,9 @@ function Result({ answerSum, poemsList }) {
       <br /><br />
       <h4>Te ha tocado un poema de: </h4>
       <h3>{authorObject.author}</h3>
+      <h5>{poem
+          ? poem.title
+          : "No se encontró un poema con la palabra clave deseada."}</h5>
       <p>
         {poem
           ? poem.text
