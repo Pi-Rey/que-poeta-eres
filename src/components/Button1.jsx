@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
+//TODO:
 //para ejecutar funciones al hacer click y ademas navegar es mejor usar el componente navigate para hacer varias cosas después del handleclick
 function Button1({ classScss, link, text, reset }) {
   //Quizás luego quitar el ev.preventDefault()
