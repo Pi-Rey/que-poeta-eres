@@ -1,7 +1,7 @@
 @import './variables';
 
 .landing {
-    margin-top: 20vh;
+    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,6 +43,7 @@
       border: 5px solid $casi_blanco;
       width: fit-content;
       padding: 20px;
+      box-shadow: rgb(9, 58, 58) 0px 22px 70px 4px;
       &:hover{
           border: 5px solid $turquesa_oscuro;
           background-color: $casi_blanco;

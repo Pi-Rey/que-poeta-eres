@@ -1,81 +1,97 @@
-@import './variables';
+@import "./variables";
 
+.divsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .fieldset {
-    margin: 30px 20px;
-    padding: 2rem;
-    border-radius: 5px;
-    border: solid 1px $turquesa_oscuro;
-    //min-width: 0;
-    background-color: $casi_blanco;
-    font-size: 1.5rem;
-    text-align: center;
-  
-    &__form {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      align-items: baseline;
-      
-      
-  
-      &--question {
-        font-size: 1.8rem;
-        margin-bottom: 10px;
-        line-height: normal;
+  margin: 30px 20px;
+  padding: 2rem;
+  border-radius: 5px;
+  border: solid 1px $turquesa_oscuro;
+  //min-width: 0;
+  background-color: $casi_blanco;
+  font-size: 1.5rem;
+  text-align: center;
 
-      }
-      &--options{
-        cursor: pointer;
-      }
-      &--submit {
-        margin-top: 10px;
-        padding: 7px;
-        width: fit-content;
-        text-decoration: none;
-        color: $casi_blanco;
-        background-color: $turquesa_medio;
-        border-radius: 10px;
-        border: 2px solid $casi_blanco;
-        font-size: 1.5rem;
-        align-self: center;
-        cursor: pointer;
-        @media screen and (width >= 768px) {
-           align-self: start;
-          }
-        &:hover {
-          background-color: $casi_blanco;
-          border: 2px solid $turquesa_oscuro;
-          color: $turquesa_oscuro;
-          font-weight: bold;
-  
-        }
-      }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: baseline;
+
+    &--question {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      line-height: normal;
     }
-  }
-  
-  .result{
+    &--div {
+      text-align: left;
+    }
+    &--options {
+      cursor: pointer;
+    }
+    &--submit {
+      margin-top: 10px;
+      padding: 7px;
+      width: fit-content;
+      text-decoration: none;
+      color: $casi_blanco;
+      background-color: $turquesa_medio;
+      border-radius: 10px;
+      border: 2px solid $casi_blanco;
+      font-size: 1.5rem;
+      align-self: center;
+      cursor: pointer;
 
-    font-size: 2rem;
-    text-decoration: none;
-    text-align: center;
-    color: $casi_blanco;
-    background-color: $turquesa_medio;
-    border-radius: 30px;
-    border: 5px solid $casi_blanco;
-    width: fit-content;
-    padding: 20px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    &:hover{
-        border: 5px solid $turquesa_oscuro;
+      @media screen and (width >= 768px) {
+        align-self: start;
+      }
+      &:hover {
         background-color: $casi_blanco;
+        border: 2px solid $turquesa_oscuro;
         color: $turquesa_oscuro;
-    }
-    @media screen and (width >= 768px) {
-        font-size: 4rem;
-        margin-top: 15px;
+        box-shadow: rgba(9, 58, 58, 0.5) 0px 0px 18px 0px;
       }
+    }
   }
-  
+  @media screen and (width >= 768px) {
+    padding: 30px;
+  }
+  @media screen and (width >= 1024px) {
+    margin: 60px 20px;
+    padding: 50px;
+  }
+  &__messageNext {
+    margin-top: 10px;
+
+  }
+}
+
+.result {
+  font-size: 2rem;
+  text-decoration: none;
+  text-align: center;
+  color: $casi_blanco;
+  background-color: $turquesa_medio;
+  border-radius: 30px;
+  border: 5px solid $casi_blanco;
+  width: fit-content;
+  padding: 20px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  box-shadow: rgb(9, 58, 58) 0px 22px 70px 4px;
+
+  &:hover {
+    border: 5px solid $turquesa_oscuro;
+    background-color: $casi_blanco;
+    color: $turquesa_oscuro;
+  }
+  @media screen and (width >= 768px) {
+    font-size: 4rem;
+    margin-top: 15px;
+  }
+}

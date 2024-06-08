@@ -6,13 +6,15 @@
     border-bottom: 2px solid black;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 5px 20px;
+    padding-top: 20px;
     background-color: $casi_blanco;
     position: relative; //quizás haya que cambiar esto a sticky o absolute pero entonces tendré que ajusta la posición, creo
     bottom: 100;
     left: 50%;
     gap: 10px;
-    transform: translate(-50%);
+    transform: translate(-50%, -50%);
     font-size: 1.2rem;
     color: $turquesa_oscuro;
     @media screen and (width >= 768px) {
@@ -31,6 +33,7 @@
         background-color: $casi_blanco;
         border: 2px solid $turquesa_oscuro;
         color: $turquesa_oscuro;
+        box-shadow: rgba(9, 58, 58, 0.50) 0px 0px 18px 0px;
       }
     }
   }

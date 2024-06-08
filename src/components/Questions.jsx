@@ -59,8 +59,8 @@ function Questions({
   };
 
   return (
-    <>
-      <fieldset className={`fieldset ${classHidden}`}>
+    <div className="divsection">
+      <fieldset className={` fieldset ${classHidden}`}>
         <form
           className="fieldset__form"
           action=""
@@ -71,7 +71,7 @@ function Questions({
         >
           <h3 className="fieldset__form--question">{question}</h3>
 
-          <div>
+          <div className="fieldset__form--div">
             <label className="fieldset__form--options" htmlFor="answer1">
               <input
                 id="answer1"
@@ -81,10 +81,10 @@ function Questions({
                
                 checked={selectedValue === 2}
               />
-              {answers.ans1}
+              &nbsp;{answers.ans1}
             </label>
           </div>
-          <div>
+          <div className="fieldset__form--div">
             <label className="fieldset__form--options" htmlFor="answer2">
               <input
                 id="answer2"
@@ -93,10 +93,10 @@ function Questions({
                 name="answers"
                 checked={selectedValue === 4}
               />
-              {answers.ans2}
+              &nbsp;{answers.ans2}
             </label>
           </div>
-          <div>
+          <div className="fieldset__form--div">
             <label className="fieldset__form--options" htmlFor="answer3">
               <input
                 id="answer3"
@@ -105,10 +105,10 @@ function Questions({
                 name="answers"
                 checked={selectedValue === 6}
               />
-              {answers.ans3}
+              &nbsp;{answers.ans3}
             </label>
           </div>
-          <div>
+          <div className="fieldset__form--div">
             <label className="fieldset__form--options" htmlFor="answer4">
               <input
                 id="answer4"
@@ -117,11 +117,11 @@ function Questions({
                 name="answers"
                 checked={selectedValue === 8}
               />
-              {answers.ans4}
+              &nbsp;{answers.ans4}
             </label>
           </div>
 
-          <div>
+          <div className="fieldset__form--div">
             <label className="fieldset__form--options" htmlFor="answer5">
               <input
                 id="answer5"
@@ -130,7 +130,7 @@ function Questions({
                 name="answers"
                 checked={selectedValue === 10}
               />
-              {answers.ans5}
+              &nbsp;{answers.ans5}
             </label>
           </div>
 
@@ -143,12 +143,12 @@ function Questions({
             onClick={handleClick}
           />
         </form>
-        <p>{messageNext} </p>
+        <p className="fieldset__messageNext">{messageNext} </p>
       </fieldset>
       <Link to="/result" className={`result ${classHiddenResult}`}>
       Pincha aquí para tu resultado
       </Link>
-    </>
+    </div>
   );
 }
 
