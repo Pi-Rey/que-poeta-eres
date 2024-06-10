@@ -7,7 +7,7 @@ function Header({setAnswerSum}) {
     }
   return (
     <header className="header">
-  <p className="header__title">¿Qué versos de una poeta hispanohablante te representa hoy? </p>
+  <p className="header__title">¿Qué versos de una poeta hispanohablante te representan hoy? </p>
   <Button1 classScss="header__link" link="/" text="Empieza de nuevo" reset={reset}/>
 </header>
 
