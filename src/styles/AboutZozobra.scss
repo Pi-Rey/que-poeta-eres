@@ -41,9 +41,10 @@
   }
 }
 .sectionaz {
-  h3 {
-    font-size: 2rem;
+  &__h3{
+    font-size: 2.4rem;
     margin-bottom: 10px;
+    font-weight: bold;
   }
   font-size: 1.8rem;
   &__ul {
@@ -52,16 +53,16 @@
     display: flex;
     flex-direction: column;
     @media screen and (width >= 768px) {
-        flex-direction: row;
-        justify-content: center;
+      flex-direction: row;
+      justify-content: center;
     }
     &--li {
-        padding: 2px;
+      padding: 2px;
       cursor: pointer;
-      &:hover{
+      &:hover {
         background-color: $turquesa_medio;
-       // text-decoration: underline $casi_blanco;
-       color: $casi_blanco;
+        // text-decoration: underline $casi_blanco;
+        color: $casi_blanco;
       }
     }
   }
@@ -71,16 +72,30 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+  font-size: 1.8rem;
   &__article {
     border: 2px solid $blanco_azul;
     padding: 10px;
-    text-align: justify;
+    padding-right: 30px;
+
     width: 100%;
+    &--title {
+      font-weight: bold;
+      font-size: 2rem;
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+    &--text {
+      margin-top: 10px;
+      margin-left: 10px;
+      padding-bottom: 10px;
+    }
     &--wiki {
       display: inline-block;
-      margin-top: 20px;
+      // margin-top: 20px;
       text-decoration: none;
-      color: $casi_blanco;
+      color: $blanco_azul;
+      margin-left: 30px;
       &:hover {
         background-color: $turquesa_medio;
         // text-decoration: underline $casi_blanco;
@@ -90,6 +105,43 @@
     }
     @media screen and (width >= 768px) {
       width: 30%;
+    }
+  }
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  &__section {
+    margin-top: 10px;
+    background-color: $turquesa_oscuro;
+    color: $casi_gris;
+    padding: 2rem;
+    font-size: 1.6rem;
+    width: 200px;
+    line-height: 1.8rem;
+    border: 2px solid $blanco_azul;
+
+    text-align: center;
+    @media screen and (width >= 768px) {
+      font-size: 2rem;
+      width: 400px;
+    }
+
+    &--item {
+      display: inline-block;
+      //  margin-top: 20px;
+      text-decoration: none;
+      color: $blanco_azul;
+      &:hover {
+        background-color: $turquesa_medio;
+        // text-decoration: underline $casi_blanco;
+        color: $casi_blanco;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
     }
   }
 }

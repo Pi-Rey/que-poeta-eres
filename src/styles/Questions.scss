@@ -12,7 +12,7 @@
   border: solid 1px $turquesa_oscuro;
   //min-width: 0;
   background-color: $casi_blanco;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-align: center;
 
   &__form {
@@ -22,7 +22,7 @@
     align-items: baseline;
 
     &--question {
-      font-size: 1.8rem;
+      font-size: 2rem;
       margin-bottom: 10px;
       line-height: normal;
     }
@@ -41,7 +41,7 @@
       background-color: $turquesa_medio;
       border-radius: 10px;
       border: 2px solid $casi_blanco;
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       align-self: center;
       cursor: pointer;
 
