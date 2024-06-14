@@ -9,7 +9,9 @@ Esta aplicación web te permite explorar diferentes poetas famosas y descubrir c
 Puedes probar la aplicación en línea [aquí](https://pi-rey.github.io/que-poeta-eres/#/).
 
 ## Capturas de pantalla
-¡Inserta aquí algunas capturas de pantalla de tu aplicación para mostrar cómo se ve en acción!
+![Landing](https://github.com/Pi-Rey/que-poeta-eres/blob/8dd217f525d7434a0ebbebb2e32577ad641a3534/images/poeta-landing.png)
+![Test](https://github.com/Pi-Rey/que-poeta-eres/blob/8dd217f525d7434a0ebbebb2e32577ad641a3534/images/poeta-test.png)
+![About](https://github.com/Pi-Rey/que-poeta-eres/blob/8dd217f525d7434a0ebbebb2e32577ad641a3534/images/poeta-about.png)
 
 ## Tecnologías Utilizadas
 - ReactJS
