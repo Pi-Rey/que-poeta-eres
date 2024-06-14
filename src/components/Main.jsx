@@ -22,7 +22,7 @@ function Main({ answerSum, setAnswerSum }) {
   };
 
   const renderNextQuestion = () => {
-    //esta parte la hice con ayuda de chatGPT que me recordó que necesitaba guardar el index en una variable de estado
+    //OBS: recuerda que necesitas guardar el index en una variable de estado
     if (currentIndex < data.length - 1) {
       const nextIndex = currentIndex + 1;
       setCurrentIndex(nextIndex);
